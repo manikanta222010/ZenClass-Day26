@@ -1,0 +1,85 @@
+body{
+    background-color: #6191da;
+}
+.row{
+    padding-top: 50px;
+}
+.card{
+    background-color: rgb(51, 51, 51);
+    border-radius: 12px;
+}
+/* TO MAKE BLACK WHILE HOVER OVER THE SUBSCRIPTION TYPE */
+.card:hover{
+    -webkit-transition: all 0.3s 0s ease;
+    -moz-transition: all 0.3s 0s ease;
+    -o-transition: all 0.3s 0s ease;
+    transition: all 0.3s 0s ease;
+    background-color: black;
+    transform: scale(1.05);
+}
+.type{
+    padding-bottom: 30px;
+    background-color: white;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 58%);
+    color: black !important;
+    font-size: 26px;
+}
+
+.headings{
+    background-color: #5889D1;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+li{
+    color: white;
+}
+/* HIGHLIGHTS THE BENEFITS OF THE SUBSCRIPTION */
+.check:hover{
+    transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;
+	-ms-transition: all 0.3s ease-in-out 0s;
+	-o-transition: all 0.3s ease-in-out 0s;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+    padding: 0 10px;
+    color: #00ABE6;
+    font-weight: 500;
+}
+.card:hover .type{
+    background-color: #5889D1;
+}
+.card:hover .headings{
+    background-color: white;
+}
+li{
+    margin: 10px 0;
+}
+
+h6 span{
+    font-size: 36px;
+}
+a {
+    border-radius: 15px;
+    font-weight: 500;
+	-webkit-transition: all 500ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-moz-transition: all 500ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-ms-transition: all 500ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-o-transition: all 500ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	transition: all 500ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	display: block;
+	margin: 15px auto;
+	text-decoration: none;
+	padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+a.button {
+	color: #00ABE6;
+	box-shadow: rgba(255, 255, 255, 0.4) 0 0px 0px 2px inset;
+}
+
+.card:hover a{
+    color: black;
+	box-shadow: #5889D1 0 0px 0px 40px inset;
+}
